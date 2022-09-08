@@ -147,11 +147,19 @@ int g0/0/1
 no shut
 ```
 b. Configure sub-interfaces for each VLAN as specified in the IP addressing table. All sub-interfaces use 802.1Q encapsulation. Ensure the sub-interface for the native VLAN does not have an IP address assigned. Include a description for each sub-interface.
+subinterface for vlan 3,4
 ```console
 int g0/0/1.3
 enc dot1q 3
 ip address 192.168.3.1 255.255.255.0
 ```
+and for native vlan 8
+```console
+int g0/0/1.8
+enc dot1q 8 native
+end
+```
+
 c. Use the show ip interface brief command to verify the sub-interfaces are operational.
 ![ip_brief](https://github.com/viktorkomarov/net/blob/main/roas/ip_brief)
 
