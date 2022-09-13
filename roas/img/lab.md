@@ -1,6 +1,6 @@
 # STP
 ## Topology
-![topology](https://github.com/viktorkomarov/net/blob/main/stp/img/topology)
+![topology](https://github.com/viktorkomarov/net/blob/main/stp/topology)
 
 ### Addressing Table
 
@@ -55,11 +55,11 @@ write
 ### Проверка связности
 От S1
 
-![ping1](https://github.com/viktorkomarov/net/blob/main/stp/img/ping1)
+![ping1](https://github.com/viktorkomarov/net/blob/main/stp/ping1)
 
 От S2
 
-![ping2](https://github.com/viktorkomarov/net/blob/main/stp/img/ping2)
+![ping2](https://github.com/viktorkomarov/net/blob/main/stp/ping2)
 
 ## Определение корневого свитча
 
@@ -76,11 +76,11 @@ no shut
 
 ## Результаты show spanning-tree
 ### S1
-![s1](https://github.com/viktorkomarov/net/blob/main/stp/img/s1)
+![s1](https://github.com/viktorkomarov/net/blob/main/stp/s1)
 ### S2
-![s2](https://github.com/viktorkomarov/net/blob/main/stp/img/s2)
+![s2](https://github.com/viktorkomarov/net/blob/main/stp/s2)
 ### S3
-![s3](https://github.com/viktorkomarov/net/blob/main/stp/img/s3)
+![s3](https://github.com/viktorkomarov/net/blob/main/stp/s3)
 
 ### Анализ команд
 
@@ -112,7 +112,7 @@ int fa0/2
 spanning-tree vlan 1 cost 18
 ```
 
-![s2_2](https://github.com/viktorkomarov/net/blob/main/stp/img/s2_2)
+![s2_2](https://github.com/viktorkomarov/net/blob/main/stp/s2_2)
 
 ```console
 int fa0/2
@@ -128,10 +128,10 @@ no shut
 ```
 
 ### S2
-![s2_3](https://github.com/viktorkomarov/net/blob/main/stp/img/s2_3)
+![s2_3](https://github.com/viktorkomarov/net/blob/main/stp/s2_3)
 
 ### S3
-![3_2](https://github.com/viktorkomarov/net/blob/main/stp/img/s3_2)
+![3_2](https://github.com/viktorkomarov/net/blob/main/stp/s3_2)
 
 Какой порт выбран протоколом STP в качестве порта корневого моста на каждом коммутаторе некорневого моста?
 > S2: Fa0/1

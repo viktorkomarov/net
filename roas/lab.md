@@ -1,6 +1,6 @@
 # Configure Router-on-a-Stick Inter-VLAN Routing
 ## Topology
-![topology](https://github.com/viktorkomarov/net/blob/main/roas/topology)
+![topology](https://github.com/viktorkomarov/net/blob/main/roas/img/topology)
 
 ### Addressing Table
 
@@ -77,9 +77,9 @@ clock set 18:50:00 Sep 4 2022
 
 ## Basic PC Configuration
 ### PC-A
-![pca](https://github.com/viktorkomarov/net/blob/main/roas/pca)
+![pca](https://github.com/viktorkomarov/net/blob/main/roas/img/pca)
 ### PC-B
-![pcb](https://github.com/viktorkomarov/net/blob/main/roas/pcb)
+![pcb](https://github.com/viktorkomarov/net/blob/main/roas/img/pcb)
 
 ## Create VLANs and Assign Switch Ports
 S1 && S2:
@@ -114,7 +114,7 @@ switchport mode access
 switchport access vlan 3
 ```
 b. Issue the show vlan brief command and verify that the VLANs are assigned to the correct interfaces.
-![vlan](https://github.com/viktorkomarov/net/blob/main/roas/vlan_brief)
+![vlan](https://github.com/viktorkomarov/net/blob/main/roas/img/vlan_brief)
 
 ## Configure an 802.1Q Trunk Between the Switches
 ### Manually configure trunk interface F0/1.
@@ -133,7 +133,7 @@ c. As another part of trunk configuration, specify that VLANs 3, 4, and 8 are on
 switchport trunk allow vlan 3,4,8
 ```
 d. Issue the show interfaces trunk command to verify trunking ports, the Native VLAN and allowed VLANs across the trunk.
-![trunk](https://github.com/viktorkomarov/net/blob/main/roas/trunk)
+![trunk](https://github.com/viktorkomarov/net/blob/main/roas/img/trunk)
 
 ### Manually configure S1’s trunk interface F0/5
 
@@ -161,7 +161,7 @@ end
 ```
 
 c. Use the show ip interface brief command to verify the sub-interfaces are operational.
-![ip_brief](https://github.com/viktorkomarov/net/blob/main/roas/ip_brief)
+![ip_brief](https://github.com/viktorkomarov/net/blob/main/roas/img/ip_brief)
 
 ### Complete the following tests from PC-A. All should be successful.
-![ping_check](https://github.com/viktorkomarov/net/blob/main/roas/ping_check)
+![ping_check](https://github.com/viktorkomarov/net/blob/main/roas/img/ping_check)
