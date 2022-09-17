@@ -143,5 +143,6 @@ ipv6 dhcp server R2-STATEFUL
 int e0/1
 ipv6 nd managed-config-flag
 ipv6 dhcp relay destination 2001:db8:acad:2::1 e0/0
+```
 
 ![pc_b](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv6/img/pc_b)
