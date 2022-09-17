@@ -92,7 +92,7 @@ write
 
 R1:
 ```console
-int g0/0
+int e0/0
 ipv6 address 2001:db8:acad:2::1/64
 ipv6 address fe80::1 link-local
 no shut
@@ -112,3 +112,36 @@ ipv6 route ::/0 2001:db8:acad:2::2
 
 Where did the host-id portion of the address come from?
 > EUI-64
+
+
+## Configure R1 to provide stateless DHCPv6 for PC-A.
+
+R1:
+```console
+ipv6 dhcp pool R1-STATELESS
+dns-server 2001:db8:acad::254
+domain-name STATELESS.com
+int e0/1
+ipv6 nd other-config-flag
+ipv6 dhcp server R1-STATELESS
+```
+
+![stateless_ping](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv6/img/stateless_ping)
+
+## Configure a stateful DHCPv6 server on R1
+R1:
+```console
+ipv6 dhcp pool R2-STATEFUL
+address prefix 2001:db8:acad:3:aaa::/80
+dns-server 2001:db8:acad::254
+domain-name STATEFUL.com
+int e0/0
+ipv6 dhcp server R2-STATEFUL
+```
+## Configure R2 as a DHCP relay agent for the LAN
+```console
+int e0/1
+ipv6 nd managed-config-flag
+ipv6 dhcp relay destination 2001:db8:acad:2::1 e0/0
+
+![pc_b](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv6/img/pc_b)
