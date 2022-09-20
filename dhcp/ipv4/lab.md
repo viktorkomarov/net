@@ -223,9 +223,12 @@ default-router 192.168.1.1
 lease 2 12 30 // недоступно в Cisco PacketTrace
 exit
 ```
-same for SUBNET_C
+
 ![subnet_a](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv4/img/subnet_a)
-![subnet_c](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv4/img/subnet_c)
+
+same for SUBNET_C
+
+![subnet_c](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv4/img/SUBNET_C)
 
 ### Attempt to acquire an IP address from DHCP on PC-A
 ![renew_a](https://github.com/viktorkomarov/net/blob/main/dhcp/ipv4/img/renew)
