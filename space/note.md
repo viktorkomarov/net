@@ -1,5 +1,5 @@
 # Topology
-![topology](https://github.com/viktorkomarov/net/blob/main/space/base_scheme.jpeg)
+![topology](https://github.com/viktorkomarov/net/blob/main/space/img/base_scheme.jpeg)
 
 # Tasks
 - Разработаете и задокументируете адресное пространство для лабораторного стенда.
