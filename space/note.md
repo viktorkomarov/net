@@ -12,19 +12,25 @@
 
 # Чокурдах
 
-IPv4:
+### IPv4:
+
 Network Address: 192.168.0.0 /18, Usable Range: 192.168.0.1 - 192.168.63.254
 
 VLAN30: 192.168.0.0 /20, Usable Range: 192.168.0.1 - 192.168.15.254
+
 VLAN40: 192.168.16.0 /20, Usable Range: 192.168.16.1 - 192.168.31.254
+
 VLAN80: 192.168.32.0 /20, Usable Range: 192.168.32.1 - 192.168.47.254
 
 
-IPv6:
+### IPv6:
+
 Network Address: 2001:: /48, Usable Range: 2001:: - 2001:0:0:ffff::
 
 VLAN30: 2001::       /64, Usable Range: 2001:: - 2001::ffff:ffff:ffff:ffff
+
 VLAN40: 2001:0:0:1:: /64, Usable Range: 2001:0:0:1:: - 2001::1:ffff:ffff:ffff:ffff
+
 VLAN80: 2001:0:0:2:: /64, Usable Range: 2001:0:0:2:: - 2001::2:ffff:ffff:ffff:ffff
 
 | Device | Interface | VLAN | IPv4              | IPv6               |
@@ -42,10 +48,12 @@ VLAN80: 2001:0:0:2:: /64, Usable Range: 2001:0:0:2:: - 2001::2:ffff:ffff:ffff:ff
 
 # Лабытнанги
 
-IPv4:
+### IPv4:
+
 Network Address: 70.1.0.0 /26, Usable Range: 70.1.0.1 - 70.1.0.62
 
-IPv6:
+### IPv6:
+
 2001:0:1:: /48
 
 Network Address: 2001:0:1::/64, Usable Range: 2001:0:1:: - 2001:0:1:0:ffff:ffff:ffff:ffff
@@ -56,29 +64,47 @@ Network Address: 2001:0:1::/64, Usable Range: 2001:0:1:: - 2001:0:1:0:ffff:ffff:
 
 # Триада
 
-IPv4:
+### IPv4:
+
 Network Address: 70.1.0.0 /26, Usable Range: 70.1.0.1 - 70.1.0.62
+
 Network Address: 70.1.2.64 /26, Usable Range: 70.1.2.65 - 70.1.2.126
+
 Network Address: 70.1.2.128 /26, Usable Range: 70.1.2.129 - 70.1.2.190
+
 Network Address: 70.1.2.192 /26, Usable Range: 70.1.2.193 - 70.1.2.254
+
 Network Address: 70.1.3.0 /26, Usable Range: 70.1.3.1 - 70.1.3.62
+
 Network Address: 70.1.3.64 /26, Usable Range: 70.1.3.65 - 70.1.3.126
+
 Network Address: 70.1.3.128 /26, Usable Range: 70.1.3.129 - 70.1.3.190
+
 Network Address: 70.1.3.192 /26, Usable Range: 70.1.3.193 - 70.1.3.254
+
 Network Address: 70.1.4.0 /26, Usable Range: 70.1.4.1 - 70.1.4.62
 
 
-IPv6:
+### IPv6:
+
 2001:0:2::/48
 
 Network Address: 2001:0:1::   /64, Usable Range: 2001:0:1:: - 2001:0:1:0:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:1:: /64, Usable Range: 2001:0:2:1:: - 2001:0:2:1:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:2:: /64, Usable Range: 2001:0:2:2:: - 2001:0:2:2:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:3:: /64, Usable Range: 2001:0:2:3:: - 2001:0:2:3:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:4:: /64, Usable Range: 2001:0:2:4:: - 2001:0:2:4:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:5:: /64, Usable Range: 2001:0:2:5:: - 2001:0:2:5:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:6:: /64, Usable Range: 2001:0:2:6:: - 2001:0:2:6:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:7:: /64, Usable Range: 2001:0:2:7:: - 2001:0:2:7:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:2:8:: /64, Usable Range: 2001:0:2:8:: - 2001:0:2:8:ffff:ffff:ffff:ffff
 
 
@@ -102,16 +128,22 @@ Network Address: 2001:0:2:8:: /64, Usable Range: 2001:0:2:8:: - 2001:0:2:8:ffff:
 
 # Ламас
 
-IPv4:
+### IPv4:
+
 Network Address: 70.1.1.0 /26, Usable Range: 70.1.1.1 - 70.1.1.62
+
 Network Address: 70.1.64.0 /26, Usable Range: 70.1.64.1 - 70.1.64.62
+
 Network Address: 70.1.128.0 /26, Usable Range: 70.1.128.1 - 70.1.128.62
 
-IPv6:
+### IPv6:
+
 2001:0:3::/48
 
 Network Address: 2001:0:3::   /64, Usable Range: 2001:0:3::   - 2001:0:3::ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:3:1:: /64, Usable Range: 2001:0:3:1:: - 2001:0:3:1:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:3:2:: /64, Usable Range: 2001:0:3:2:: - 2001:0:3:2:ffff:ffff:ffff:ffff
 
 | Device | Interface | VLAN | IPv4              | IPv6               |
@@ -122,16 +154,22 @@ Network Address: 2001:0:3:2:: /64, Usable Range: 2001:0:3:2:: - 2001:0:3:2:ffff:
 
 # Киторн
 
-IPv4:
+### IPv4:
+
 Network Address: 70.1.0.64 /26, Usable Range: 70.1.0.65 - 70.1.0.126
+
 Network Address: 70.1.0.128 /26, Usable Range: 70.1.0.129 - 70.1.0.190
+
 Network Address: 70.1.0.192 /26, Usable Range: 70.1.0.193 - 70.1.0.254
 
-IPv6:
+### IPv6:
+
 2001:0:4::/48
 
 Network Address: 2001:0:4::   /64, Usable Range: 2001:0:4::   - 2001:0:4::ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:3:1:: /64, Usable Range: 2001:0:3:1:: - 2001:0:3:1:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:4:1:: /64, Usable Range: 2001:0:4:1:: - 2001:0:4:1:ffff:ffff:ffff:ffff
 
 | Device | Interface | VLAN | IPv4              | IPv6               |
@@ -142,24 +180,36 @@ Network Address: 2001:0:4:1:: /64, Usable Range: 2001:0:4:1:: - 2001:0:4:1:ffff:
 
 # С.-Петербург
 
-IPv4
+### IPv4
+
 Network Address: 192.168.64.0 /18, Usable Range: 192.168.64.1 - 192.168.119.254
 
 VLAN90: 192.168.64.0 /20, Usable Range: 192.168.64.1 - 192.168.79.254
+
 VLAN100: 192.168.80.0 /20, Usable Range: 192.168.80.1 - 192.168.95.254
+
 VLAN80: 192.168.96.0 /20, Usable Range: 192.168.96.1 - 192.168.111.254
+
 Network Address: 192.168.112.0 /22, Usable Range: 192.168.112.1 - 192.168.115.254
+
 Network Address: 192.168.116.0 /22, Usable Range: 192.168.116.1 - 192.168.119.254
+
 Network Address: 192.168.120.0 /22, Usable Range: 192.168.120.1 - 192.168.123.254
 
-IPv6
+### IPv6
+
 Network Address: 2001:0:5::/48
 
 VLAN90:  2001:0:5::   /64, Usable Range:  2001:0:5:: - 2001:0:5::ffff:ffff:ffff:ffff
+
 VLAN100: 2001:0:5:1:: /64, Usable Range:  2001:0:5:1:: - 2001:0:5:1:ffff:ffff:ffff:ffff
+
 VLAN80:  2001:0:5:2::  /64, Usable Range: 2001:0:5:2:: - 2001:0:5:2:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:5:3::  /64, Usable Range: 2001:0:5:3:: - 2001:0:5:3:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:5:4::  /64, Usable Range: 2001:0:5:4:: - 2001:0:5:4:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:5:5::  /64, Usable Range: 2001:0:5:5:: - 2001:0:5:5:ffff:ffff:ffff:ffff
 
 
@@ -186,31 +236,48 @@ Network Address: 2001:0:5:5::  /64, Usable Range: 2001:0:5:5:: - 2001:0:5:5:ffff
 
 # Москва
 
-IPv4
+### IPv4
 
 Network Address: 192.168.128.0 /17, Usable Range: 192.168.128.1 - 192.168.255.254
 
 VLAN110: 192.168.128.0 /19, Usable Range: 192.168.128.1 - 192.168.159.254
+
 VLAN120: 192.168.160.0 /19, Usable Range: 192.168.160.1 - 192.168.191.254
+
 VLAN80:  192.168.192.0 /19, Usable Range: 192.168.192.1 - 192.168.223.254
+
 Network Address: 192.168.224.0 /22, Usable Range: 192.168.224.1 - 192.168.227.254
+
 Network Address: 192.168.228.0 /22, Usable Range: 192.168.228.1 - 192.168.231.254
+
 Network Address: 192.168.232.0 /22, Usable Range: 192.168.232.1 - 192.168.235.254
+
 Network Address: 192.168.232.0 /22, Usable Range: 192.168.236.1 - 192.168.239.254
+
 Network Address: 192.168.240.0 /22, Usable Range: 192.168.240.1 - 192.168.243.254
+
 Network Address: 192.168.244.0 /22, Usable Range: 192.168.244.1 - 192.168.247.254
 
-IPv6
+### IPv6
+
 Network Address: 2001:0:6::/48
 
 VLAN110: 2001:0:6::   /64, Usable Range:  2001:0:6:: - 2001:0:6::ffff:ffff:ffff:ffff
+
 VLAN120: 2001:0:6:1:: /64, Usable Range:  2001:0:6:1:: - 2001:0:6:1:ffff:ffff:ffff:ffff
+
 VLAN80:  2001:0:6:2::  /64, Usable Range: 2001:0:6:2:: - 2001:0:6:2:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:6:3::  /64, Usable Range: 2001:0:6:3:: - 2001:0:6:3:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:6:4::  /64, Usable Range: 2001:0:6:4:: - 2001:0:6:4:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:6:5::  /64, Usable Range: 2001:0:6:5:: - 2001:0:6:5:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:6:6::  /64, Usable Range: 2001:0:6:6:: - 2001:0:6:6:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:6:7::  /64, Usable Range: 2001:0:6:7:: - 2001:0:6:7:ffff:ffff:ffff:ffff
+
 Network Address: 2001:0:6:8::  /64, Usable Range: 2001:0:6:8:: - 2001:0:6:8:ffff:ffff:ffff:ffff
 
 
