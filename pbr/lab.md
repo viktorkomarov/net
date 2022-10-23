@@ -110,7 +110,7 @@ route-map REBALANCE permit 10
  set ip next-hop verify-availability 70.1.2.193 20 track 2
 exit
 route-map REBALANCE permit 20
- match ip address vlan32
+ match ip address vlan40
  set ip next-hop verify-availability 70.1.2.193 10 track 2
  set ip next-hop verify-availability 70.1.2.65 20 track 1
 exit
